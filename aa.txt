@@ -1,7 +1,5 @@
-print ("hello world")kkkfff
-print ("hello world2")
-aaaaaaaa
-kjhjghjgjyh
+print ("hello world");
+print ("hello world2");
 
 
-sliyanie
+sliyanie;
