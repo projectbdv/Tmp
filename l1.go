@@ -14,7 +14,9 @@ func m1 () {
 	}
 }
  func main ()  {
-	go m1()
+	 for i:=0;i <10 ;i++ {
+		 go m1()
+	 }
 	 var buf int
 	fmt.Scanln(&buf)
 }
