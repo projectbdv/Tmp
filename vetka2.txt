@@ -1,6 +1,0 @@
-jkhjkhjkhjkhjkhjkhj
-Print("eewrewr");
-Print("eewrewr2");
-Print("eewrewr3");
-Print("eewrewr4");
-Print("eewrewr5");
