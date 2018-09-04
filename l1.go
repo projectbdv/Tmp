@@ -21,4 +21,4 @@ func m1 () {
 	fmt.Scanln(&buf)
 }
 
-//test of test
+//test of test tett
