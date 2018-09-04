@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 )
-func main () {
+func m1 () {
 	var buf0 []int
 		for {
 		buf0 = append(buf0, 1, 2, 3, 4, 5)
@@ -13,10 +13,9 @@ func main () {
 		fmt.Println(buf0)
 	}
 }
-/* func main ()  {
-
-	go m( )
-	var input  string
-	fmt.Scanln(&input)
+ func main ()  {
+	go m1()
+	 var buf int
+	fmt.Scanln(&buf)
 }
-*/
+
