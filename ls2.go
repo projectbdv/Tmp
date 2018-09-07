@@ -1,15 +1,24 @@
 package main
 
-import "fmt"
+import (
+	"os"
+	"log"
+	//"fmt"
+	"io/ioutil"
+	"fmt"
+)
 
-func f(n int) {
-	for i := 0; i < 10; i++ {
-		fmt.Println(n, ":", i)
-	}
-}
 
 func main() {
-	go f(0)
-	var input string
-	fmt.Scanln(&input)
-}
+	// Open file for reading
+	file, err := os.Open("mas.txt")
+	if err != nil {
+		log.Fatal(err)
+	}
+	data, err := ioutil.ReadAll(file)
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Println(string(data))
+
+	}
